@@ -1,5 +1,14 @@
 {
+  "buildCommand": "echo 'build complete'",
+  "outputDirectory": "Files",
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+    {
+      "source": "/",
+      "destination": "/home.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/home.html"
+    }
   ]
 }
