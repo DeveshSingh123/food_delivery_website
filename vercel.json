@@ -1,14 +1,1 @@
-{
-  "buildCommand": "echo 'build complete'",
-  "outputDirectory": "Files",
-  "rewrites": [
-    {
-      "source": "/",
-      "destination": "/home.html"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/home.html"
-    }
-  ]
-}
+{\n  "buildCommand": "echo 'build complete'",\n  "outputDirectory": "Files",\n  "rewrites": [\n    {\n      "source": "/",\n      "destination": "/home.html"\n    },\n    {\n      "source": "/(.*)",\n      "destination": "/home.html"\n    }\n  ]\n}
